@@ -1,0 +1,63 @@
+Body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.Container{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.Topo{
+    background-color: rgb(0, 0, 0);
+    height: 70px ;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+        .Topo-esquerda{
+            background-color: rgb(59, 177, 5);
+            height:90px ;
+            width: 33%;
+        }
+        .Topo-meio{
+            background-color: rgb(221, 207, 10);
+            height:90px ;
+            width: 40%;
+        }
+        .Topo-direita{
+            background-color: rgb(226, 9, 9);
+            height:90px ;
+            width: 33%;
+        }
+
+.Meio{
+    background-color: rgb(69, 2, 252);
+    height: 460px; ;
+    width: 100%;
+}
+
+.Baixo{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+        .Baixo-esquerda{
+            background-color: rgb(59, 177, 5);
+            height:91px ;
+            width: 33%;
+
+        }
+        .Baixo-meio{
+            background-color: rgb(221, 207, 10);
+            height:91px ;
+            width: 40%;
+            
+        }
+        .Baixo-direita{
+            background-color: rgb(226, 9, 9);
+            height:91px ;
+            width: 33%;
+            
+        }
