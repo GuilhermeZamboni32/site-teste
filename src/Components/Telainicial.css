@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #CAF0F8;
+    color: #023E8A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Topo {
+    width: 100%;
+    background: linear-gradient(135deg, #0077B6, #0096C7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Topo-esquerda {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Novo container para o logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização do logo */
+.logo {
+    width: 80px; /* Ajuste o tamanho do logo aqui */
+    height: auto;
+}
+
+.Topo-direita {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.Topo-meio {
+    flex: 2;
+    text-align: center;
+}
+
+.Topo-meio h1 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+}
+
+.botao {
+    background-color: #48CAE4;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #0096C7;
+    transform: scale(1.05);
+}
+
+.Meio {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 50px 25px;
+    background: linear-gradient(135deg, #ADE8F4, #90E0EF);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    margin: 25px 0;
+}
+
+.Meio h2 {
+    font-size: 30px;
+    color: #023E8A;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Meio p {
+    font-size: 18px;
+    color: #03045E;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.botaoPrincipal {
+    background-color: #0077B6;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botaoPrincipal:hover {
+    background-color: #023E8A;
+    transform: scale(1.08);
+}
+
+.Baixo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CAF0F8;
+    padding: 30px 0;
+    border-top: 2px solid #90E0EF;
+}
+
+.Baixo-item {
+    text-align: center;
+    flex: 1;
+    padding: 15px 25px;
+    max-width: 250px;
+    background-color: #ADE8F4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.Baixo-item:hover {
+    transform: translateY(-5px);
+}
+
+.Baixo-item h3 {
+    font-size: 22px;
+    color: #0077B6;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Baixo-item p {
+    font-size: 15px;
+    color: #023E8A;
+    line-height: 1.4;
+}
